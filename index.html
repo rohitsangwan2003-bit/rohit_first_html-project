@@ -3,43 +3,188 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio_project</title>
+    <title>css level 4</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-    <h1><pre>                                         HOMEPAGE FOR MY FIRST WEB</pre></h1>
-    </header>
-    <main>
-        <style>
-     a:hover {
-    color: rgb(187, 99, 171);
-    text-decoration: underline;
-          }
-        </style>
-    <a href="/education.html" target="_main">education page </a>
-    <hr>
-    <a href="/form.html" target="_main">experience</a>
-    <hr>
-    <a href="/projects.html" target="_main">projects</a>
-    <hr>
-    <b>please visit my linkedin profile</b>
-    <br>
-    <a href="https://www.linkedin.com/in/rohit-sangwan-457809347" target="_main"><img src="
-        https://yt3.ggpht.com/-CepHHHB3l1Y/AAAAAAAAAAI/AAAAAAAAAAA/Z8MftqWbEqA/s900-c-k-no-mo-rj-c0xffffff/photo.jpg" alt="linkedin" height="100"></a>
-        <hr><br>
-    </main>
-    <footer>
+    <div class="navbar">
+        <div class="nav-logo border" >
+            <div class="logo"></div>
+        </div>
+        <div class="nav-address border">
+            <p class="add-first">Deliver to</p>
+            <div class="add-icon">
+                <i class="fa-solid fa-location-dot"></i>
+                <p class="add-sec">India</p>
+            </div>
+        </div>
+        
+        <div class="nav-search">
+            <select class="search-select">
+                <option>All</option>
+            </select>
+            <input placeholder="Search Amazon" class="search-input">
+            <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
 
-        <b>if you are bored then there is something for you:</b><br>
-        <b>click on this aalo and this will for sure make you laugh</b>
-        <br>
-        <a href="https://www.youtube.com/shorts/ejGT3rvqOto" target="_main"><img src="https://th.bing.com/th/id/R.07be767c1028b51f0c6deb344122ac79?rik=cWDTdyHiXWWnfg&riu=http%3a%2f%2feskipaper.com%2fimages%2fpotato-1.jpg&ehk=DW6IGD1J98dCLw0PLwELvyUZkcwDMWCEM%2fAO2tEY6gA%3d&risl=&pid=ImgRaw&r=0" alt="aaloo image" height="50"></a>
-        <hr>
-        <b>need motivation?</b>
-        <iframe width="400" height="200" src="https://www.youtube.com/embed/sTaEwwHOzjc?si=dNwhKDtpMlbvNJE7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <hr>
-        <b>if poor connection till then you can play this casual game</b>
-    <a href="https://dianosaurgame.com/">dino game</a>
+        <div class="nav-signin border">
+            <p><span>Hello, sign in</span></p>
+            <p class="nav-second">Account & Lists</p>
+        </div>
+
+        <div class="nav-return border">
+            <p><span>Returns</span></p>
+            <p class="nav-second">& Orders</p>
+        </div>
+
+        <div class="nav-cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Cart
+        </div>
+    </div>
+    <div class="panel">
+        <div class="panel-all">
+            <i class="fa-solid fa-bars"></i>
+            All
+        </div>
+        <div class="panel-ops">
+            <p>Today's Deals</p>
+            <p>Customer Service</p>
+            <p>Registry</p>
+            <p>Gift Cards</p>
+            <p>Sell</p>
+        </div>
+        <div class="panel-deals">
+            Shop deals in Electronics
+        </div>
+    </div>
+    </header>
+
+    <div class="hero-section">
+        <div class="hero-msg">
+            <p>you are on amazon.com.You can shop on Amazon India for millions of products with the fast delivery<a>click here to go to amazon.in</a></p>
+        </div>
+    </div>
+
+    <div class="shop-section">
+        <div class=" box">
+            <div class="box-content">
+                <h2>Clothes</h2>
+                <div class="box-img" style="background-image: url('box1_image.jpg');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+        <div class=" box">
+            <div class="box-content">
+                <h2>Health & Personal Care</h2>
+                <div class="box-img" style="background-image: url('box2_image.jpg');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+        <div class=" box">
+            <div class="box-content">
+                <h2>Get your Game On</h2>
+                <div class="box-img" style="background-image: url('game_on.jpg');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-content">
+                <h2>Electronics</h2>
+                <div class="box-img" style="background-image: url('box4_image.jpg');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+        <div class=" box">
+            <div class="box-content">
+                <h2>Beauty Picks</h2>
+                <div class="box-img" style="background-image: url('box5_image.jpg');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+        <div class=" box">
+            <div class="box-content">
+                <h2>Pet Care</h2>
+                <div class="box-img" style="background-image: url('box6_image.jpg');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+        <div class=" box">
+            <div class="box-content">
+                <h2>Toys</h2>
+                <div class="box-img" style="background-image: url('box7_image.jpg');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+        <div class=" box">
+            <div class="box-content">
+                <h2>Discover Fashion Trends</h2>
+                <div class="box-img" style="background-image: url('box8_image.jpg');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="foot-panel1">
+            Back To Top
+        </div>
+        <div class="foot-panel2">
+            <ul>
+                <p>Get to know us</p>
+                <a>Carrers</a>
+                <a>Blog</a>
+                <a>About Amazon</a>
+                <a>Investor Relations</a>
+                <a>Amazon Devices</a>
+                <a>Amazon Science</a>
+            </ul>
+            <ul>
+                <p>Make Money with Us</p>
+                <a>Sell on Amazon</a>
+                <a>Sell apps on Amazon</a>
+                 <a>Become an Affiliate</a>
+                 <a>Become a Delivery Driver</a>                     <a>Advertise Your Products</a>
+                <a>Self-Publish with Us</a>
+                <a>Become an Amazon Hub Partner</a>
+                <a>›See More Ways to Make Money</a>
+            </ul>
+            <ul>
+                <p>Amazon Payment Products</p>
+                <a>Amazon Business Card</a>
+                <a>Shop with Points</a>
+                <a>Reload Your Balance</a>
+                <a>Amazon Currency Converter</a>
+             </ul>
+             <ul>
+                <p>Let Us Help You</p>
+                <a>Amazon and COVID-19</a>
+                <a>Your Account</a>
+                <a>Your Orders</a>
+                <a>Shipping Rates & Policies</a>
+                <a>Returns & Replacements</a>
+                <a>Manage Your Content and Devices</a>
+                <a>Help</a>
+             </ul>
+        </div>
+        <div class="foot-panel3">
+            <div class="logo"></div>
+        </div>
+
+        <div class="foot-panel4">
+            <div class="pages">
+                <a>Conditions of Use</a>
+                <a>Privacy Notice</a>
+                <a>Your Ads Privacy Choices</a>
+            </div>
+            <div class="copyright">
+                © 1996-2025, Amazon.com, Inc. or its affiliates
+            </div>
+        </div>
     </footer>
 </body>
 </html>
